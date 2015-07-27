@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &178536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 493072}
+  - 114: {fileID: 11404402}
+  - 114: {fileID: 11429038}
+  m_Layer: 0
+  m_Name: Room 2 - Torches
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493072
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178536}
+  m_LocalRotation: {x: 0, y: .998806179, z: 0, w: -.0488499701}
+  m_LocalPosition: {x: -14.3299999, y: -10.0699997, z: 25.7099991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11404402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b2ad730e02d74885960e8afcdd05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraReference: {fileID: 0}
+  targetToMove: {fileID: 0}
+  iTweenPathName: PlayerPath3
+  scriptToEnable: {fileID: 0}
+  easeTime: 12
+  lookTime: .300000012
+--- !u!114 &11429038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: PlayerPath3
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -12.1721497, y: -10.3166504, z: 18.3160229}
+  - {x: -20.56464, y: -10.5818033, z: 18.3160191}
+  - {x: -26.0361214, y: -7.75722551, z: 22.1994953}
+  - {x: -29.785902, y: -5.2021637, z: 18.2078152}
+  - {x: -29.2000008, y: -2.3070569, z: 14.2786751}
+  - {x: -26.3847275, y: -.952226281, z: 13.1467438}
+  - {x: -20.2555466, y: .656035781, z: 17.6976147}
+  - {x: -18.2382927, y: .656035781, z: 17.6976109}
+  nodeCount: 8
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 178536}
+  m_IsPrefabParent: 1
